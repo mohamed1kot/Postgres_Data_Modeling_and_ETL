@@ -88,28 +88,22 @@ On why to use a relational database for this case:
 Files used on the project:
 1. **data** folder nested at the home of the project, where all needed jsons reside.
 2. **sql_queries.py** contains all your sql queries, and is imported into the files bellow.
-3. **create_tables.py** drops and creates tables. You run this file to reset your tables before each time you run your ETL scripts.
-4. **test.ipynb** displays the first few rows of each table to let you check your database.
-5. **etl.ipynb** reads and processes a single file from song_data and log_data and loads the data into your tables. 
+3. **create_tables.py** drops and creates tables. You run this file to reset your tables before each time you run your ETL scripts. 
 6. **etl.py** reads and processes files from song_data and log_data and loads them into your tables. 
 7. **README.md** current file, provides discussion on my project.
 
 ### Break down of steps followed
 
-1º Wrote DROP, CREATE and INSERT query statements in sql_queries.py
+1. Wrote DROP, CREATE and INSERT query statements in sql_queries.py
 
-2º Run in console
+2. Run in console
  ```
 python create_tables.py
 ```
 
-3º Used test.ipynb Jupyter Notebook to interactively verify that all tables were created correctly.
+3. Once verified that base steps were correct by checking with test.ipynb, filled in etl.py program.
 
-4º Followed the instructions and completed etl.ipynb Notebook to create the blueprint of the pipeline to process and insert all data into the tables.
-
-5º Once verified that base steps were correct by checking with test.ipynb, filled in etl.py program.
-
-6º Run etl in console, and verify results:
+4. Run etl in console, and verify results:
  ```
 python etl.py
 ```
@@ -163,4 +157,4 @@ Prerequisites:
 
 ## Authors
 
-* **Florencia Silvestre** - [Github](https://github.com/Flor91) - [LinkedIn](https://www.linkedin.com/in/florencia-silvestre-2683587b/)
+* **Mohammed Khotaby** 
