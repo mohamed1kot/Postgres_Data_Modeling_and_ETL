@@ -82,6 +82,7 @@ On why to use a relational database for this case:
 - year (INT): Year associated to start_time
 - weekday (TEXT): Name of week day associated to start_time
 
+![img](tmp_img/img.png)
 
 ## Project structure
 
