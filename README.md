@@ -1,4 +1,4 @@
-# Sparkify Postgres ETL
+# Sparkify Postgres ETL 
 
 This project consists on putting into practice the following concepts:
 - Data modeling with Postgres
